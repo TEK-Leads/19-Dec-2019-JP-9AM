@@ -1,0 +1,75 @@
+1) Given an array of N elements and the task is to print the elements of an array after left rotating array elements by p positions.
+
+Input: Read array elements and read no.of positions (p) to rotate.
+
+Output: Array elements after positions rotation.
+
+Example:
+
+    Input:
+    array elements: 1 2 3 4 5 6 7
+	Positions : 3
+
+    Output: 
+    4 5 6 7 1 2 3
+	
+	
+	
+2) Given an array of N elements and the task is to print the elements of an array after right rotating array elements by p positions.
+
+Input: Read array elements and read no.of positions (p) to rotate.
+
+Output: Array elements after positions rotation.
+
+	
+	Input:
+    	array elements: 1 2 3 4 5 
+	position = 2
+    
+
+    Output: 
+    4 5 1 2 3
+	
+3) You are given an array of 0s and 1s in random order. Segregate 0s on left side and 1s on right side of the array. Traverse array only once.
+
+Input array   =  [0, 1, 0, 1, 0, 0, 1, 1, 1, 0] 
+Output array =  [0, 0, 0, 0, 0, 1, 1, 1, 1, 1] 
+	
+	
+4) You are given an array of 0s,  1s and 2s in random order. Segregate 0s, 1s and 2s in the array.
+
+Input array   =  [0, 1, 0, 2, 0, 0, 2, 1, 2, 0] 
+Output array =  [0, 0, 0, 0, 0, 1, 1, 2, 2, 2] 
+
+
+5) Write a Java program to find the Leader element from an given array of integers. 
+   
+Leader element: A Leader element is an element that appears more than n/2 times where n is the size of the array.
+
+Note: 
+
+If more than one leader element is presented then print highest number from those.
+If no Leader element present in the given array then print "Leader Element Doesn't Exist".
+
+Input : { 1, 6, 6, 5, 7, 4, 1, 7, 7, 7, 7, 7, 7, 7, 2 };
+
+Output : 7
+
+
+6) Write a java program to find super elements in given integer array. If no super element is presented then print output as "No Super Elements".
+
+Super Element : The element which contains at least two greater elements is called Super Element.
+
+Ex : 1, 5, 3, 6
+
+Output : 1 and 3 are super elements 
+
+Explanation : 
+
+1 : 1 is having 3,5,6 as greater elements so it is super element
+
+5 : 5 is having only 6 as greater so it is not super element 
+
+3 : 3 is having 5 and 6 as greater so it is super element 
+
+6 : 6 doesn't have any greater element so it is not super element.
